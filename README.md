@@ -4,9 +4,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![OpenClaw Skill](https://img.shields.io/badge/OpenClaw-Skill-blue.svg)](https://openclaw.ai)
-[![Made by](https://img.shields.io/badge/Made%20by-InnerG%20Intel-black.svg)](https://innergclaw.github.io)
 
-![Dashboard Preview](https://github.com/innergclaw/freelancer-client-tracker/raw/main/screenshot.png)
+![Dashboard Preview](https://via.placeholder.com/800x400/0a0a0b/00D1C7?text=Client+Dashboard+Preview)
 
 *(Screenshot: Add your own by uploading `screenshot.png` to the repo)*
 
@@ -55,7 +54,7 @@ source ~/.zshrc
 
 ### 4. Configure Stripe + Telegram (Optional)
 
-Edit `stripe-monitor-daemon.js`:
+Create `stripe-monitor-daemon.js`:
 
 ```javascript
 const TELEGRAM_BOT_TOKEN = 'YOUR_BOT_TOKEN';
@@ -96,12 +95,12 @@ Output:
 revenue
 ```
 
-Output:
+Example Output:
 ```
 📊 REVENUE REPORT
 ==================
 Total Clients: 4
-Total Revenue: $843
+Total Revenue: $1,247
 
 By Stage:
   Paid: 2
@@ -109,10 +108,10 @@ By Stage:
   Design: 1
 
 Clients:
-  • Daryl Goodinh — $350 (Paid)
-  • Ashley Long — $290 (In Review)
-  • Layonda Reason — $104 (Design)
-  • Nydeah — $99 (Paid)
+  • Jane Smith — $499 (Paid)
+  • John Doe — $399 (In Review)
+  • Alice Brown — $249 (Design)
+  • Bob Wilson — $100 (Paid)
 ```
 
 ### Open Dashboard
@@ -187,10 +186,11 @@ This skill triggers on phrases like:
 
 ## 📝 Real World Usage
 
-Built by [InnerG Intel](https://innergclaw.github.io) / OwnYourWeb Systems — currently tracking:
-- 4 active clients
-- $843 in revenue
-- 3 demo leads ($375 potential)
+Built for freelancers who want simple, effective client management without the bloat. Track:
+- Active client projects
+- Payment status & revenue
+- Demo leads & pipeline
+- Project deliverables
 
 ## 🛠 Tech Stack
 
@@ -213,10 +213,10 @@ MIT — Free to use and modify.
 
 ## 🙏 Credits
 
-Created by **Nasir** (rrisan / @rrisan29) — Founder of InnerG Intel
+Created by [InnerG Intel](https://github.com/innergclaw)
 
 Built for freelancers who want simple, effective client management without the bloat.
 
 ---
 
-**Questions?** Open an issue or reach out on [Twitter/X](https://twitter.com/rrisan29)
+**Questions?** Open an issue on GitHub.
