@@ -6,7 +6,9 @@
 [![OpenClaw Skill](https://img.shields.io/badge/OpenClaw-Skill-blue.svg)](https://openclaw.ai)
 [![Made by](https://img.shields.io/badge/Made%20by-InnerG%20Intel-black.svg)](https://innergclaw.github.io)
 
-![Dashboard Preview](https://via.placeholder.com/800x400/0a0a0b/00D1C7?text=Client+Dashboard+Preview)
+![Dashboard Preview](https://github.com/innergclaw/freelancer-client-tracker/raw/main/screenshot.png)
+
+*(Screenshot: Add your own by uploading `screenshot.png` to the repo)*
 
 ## ✨ Features
 
@@ -22,7 +24,7 @@
 ### 1. Clone & Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/freelancer-client-tracker.git
+git clone https://github.com/innergclaw/freelancer-client-tracker.git
 cd freelancer-client-tracker
 
 # Copy dashboard to your workspace
