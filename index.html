@@ -440,38 +440,38 @@
   </div>
   
   <script>
-    // Sample data - replace with actual client data
+    // Sample data - replace with your actual client data
     const clients = [
       {
         id: 'client_001',
-        name: 'Daryl Goodinh',
-        email: 'imhookedseafoodllc@gmail.com',
-        project: 'NEW LANDING PAGE',
-        amount: 350,
+        name: 'Jane Smith',
+        email: 'jane@bakeryco.com',
+        project: 'Bakery Website Redesign',
+        amount: 450,
         stage: 1,
-        createdAt: '2026-03-12',
+        createdAt: '2026-03-10',
         confirmationSent: true,
-        notes: 'Images received ✓ — Still awaiting: content, domain access, wording',
+        notes: 'Payment received. Awaiting brand assets and content.',
         checklist: {
           domainAccess: false,
           contentProvided: false,
-          imagesProvided: true,
-          hostingPrefs: false,
+          imagesProvided: false,
+          hostingPrefs: true,
           designPreferences: true
         }
       },
       {
         id: 'client_002',
-        name: 'Ashley Long',
-        email: 'info@allyzworldofknowledge.com',
-        project: 'ALLYZ WORLD OF KNOWLEDGE — Daycare Landing Page',
-        amount: 290,
+        name: 'Mike Johnson',
+        email: 'mike@fitnesspro.com',
+        project: 'Personal Trainer Landing Page',
+        amount: 350,
         stage: 2,
-        createdAt: '2026-03-13',
+        createdAt: '2026-03-12',
         confirmationSent: true,
-        notes: 'Custom domain: www.allyzworldofknowledge.com (DNS pending). Site built, awaiting client review.',
+        notes: 'In review phase. Gathering requirements and scheduling preferences.',
         checklist: {
-          domainAccess: false,
+          domainAccess: true,
           contentProvided: true,
           imagesProvided: true,
           hostingPrefs: true,
@@ -480,15 +480,15 @@
       },
       {
         id: 'client_003',
-        name: 'Layonda Reason',
-        email: 'Marlayphilly@gmail.com',
-        project: 'NEW LOGO + FLYER — Unforgettable Moments',
-        amount: 104,
+        name: 'Sarah Chen',
+        email: 'sarah@artstudio.com',
+        project: 'Logo + Business Card Design',
+        amount: 299,
         stage: 3,
-        createdAt: '2026-03-13',
+        createdAt: '2026-03-14',
         confirmationSent: true,
         awaitingPayment: false,
-        notes: '✓ Preview approved — Logo + Flyer add-on (+$25) in progress. Mobile photo keychain business. Design: keychain with camera, white background, black words, simple & elegant',
+        notes: 'Design phase. Logo concepts in progress. Client prefers minimalist style.',
         checklist: {
           imagesProvided: true,
           designPreferences: true,
@@ -497,14 +497,14 @@
       },
       {
         id: 'client_004',
-        name: 'Nydeah',
-        email: 'nydeah@203suites.com',
-        project: 'NEW LOGO — 203 Suites',
-        amount: 99,
+        name: 'David Park',
+        email: 'david@techconsulting.com',
+        project: 'Consulting Firm Website',
+        amount: 599,
         stage: 1,
         createdAt: '2026-03-16',
         confirmationSent: true,
-        notes: '✓ PAID — Salon suite business. Design: black and simple. Ready to begin.',
+        notes: 'New client. Ready to begin once materials are received.',
         checklist: {
           imagesProvided: false,
           designPreferences: true
@@ -512,37 +512,37 @@
       }
     ];
     
-    // Demo Leads Data
+    // Demo Leads Data - Example leads
     const demoLeads = [
       {
         id: 'demo_001',
-        business: "MS MINNIES KITCHEN",
-        project: "PROM SEND OFF COLLECTION Landing Page",
-        contact: "Reached out",
+        business: "Sunrise Coffee Shop",
+        project: "Coffee Shop Landing Page",
+        contact: "reached out via email",
         status: "awaiting",
         charge: 125,
-        createdAt: '2026-03-16',
-        notes: "Awaiting response from business owner"
+        createdAt: '2026-03-15',
+        notes: "Local coffee shop looking for online presence. Demo created, awaiting response."
       },
       {
         id: 'demo_002',
-        business: "KJ LUXURY CONCIERGE LLC",
-        project: "Landing Page Demo",
-        contact: "kjluxuryconcierge@yahoo.com",
+        business: "Elite Auto Detailing",
+        project: "Service Business Website",
+        contact: "contact@eliteauto.com",
         status: "building",
         charge: 125,
         createdAt: '2026-03-16',
-        notes: "Demo site in progress — will send when ready"
+        notes: "Auto detailing business. Demo site in progress."
       },
       {
         id: 'demo_003',
-        business: "BLESSED BY BRI NICOLE",
-        project: "Hair Stylist Landing Page Demo",
-        contact: "Phone: 313-652-2631",
+        business: "Bloom Florist",
+        project: "Floral Shop Landing Page",
+        contact: "Phone: 555-123-4567",
         status: "building",
         charge: 125,
         createdAt: '2026-03-16',
-        notes: "Hair stylist / mom. Scheduling: https://app.acuityscheduling.com/schedule/336e5e38. Demo in progress — will send when ready."
+        notes: "Wedding and event florist. Demo being built with gallery focus."
       }
     ];
     
